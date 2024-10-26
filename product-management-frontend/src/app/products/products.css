@@ -1,0 +1,80 @@
+/* Custom styles */
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.product-card p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+.button-group button {
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.add-product-button,
+.update-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.add-product-button:hover,
+.update-button:hover {
+    background-color: #0056b3;
+}
+
+.cancel-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.cancel-button:hover {
+    background-color: #5a6268;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 576px) {
+    .product-card {
+        padding: 10px;
+    }
+
+    .button-group button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
